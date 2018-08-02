@@ -48,7 +48,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about" class="page-scroll">About</a></li>
-        <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
+        <li><a href="#restaurant-menu" class="page-scroll">Projects and Events</a></li>
         <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
         <li><a href="#team" class="page-scroll">Chefs</a></li>
         <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
@@ -101,9 +101,19 @@
                         </li>
                       </ul>
                       <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><b>Vision</b> 
+                                <p>To build a transformed Africa</p>
+                                
+                                </div>
+                        <div class="tab-pane fade show " id="profile" role="tabpanel" aria-labelledby="profile-tab"><b> Mission </b>
+                                <p>To stimulate African spirit of creativity, employability, hardwork and a sustainable future</p>
+                        </div>
+                        <div class="tab-pane fade show " id="contact" role="tabpanel" aria-labelledby="contact-tab"><b> Core values</b>
+                            <p>Sustainability, equality and teamwork</p> 
+
+                                
+                                
+                        </div>
                       </div>
         </div>
       </div>
@@ -114,63 +124,46 @@
 <div id="restaurant-menu">
   <div class="section-title text-center center">
     <div class="overlay">
-      <h2>Menu</h2>
+      <h2>Fika Afrika Activities</h2>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+      <p class="text-center">We have implemented a variety of interventions 
+            designed to </p>
+            <p class="text-center">empower young people in different 
+            communities to rise and </p><p class="text-center"> promote climate smart innovations for sustainable Development.</p>
     </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6">
         <div class="menu-section">
-          <h2 class="menu-section-title">Breakfast & Starters</h2>
+          <h2 class="menu-section-title">1. Climate Magazine ( Wave) </h2>
           <hr>
           <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $35 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
+            <div class="menu-item-name">  <P class="text-center">Empowers youth and children with information, insights, tools, hope and inspiration to cocreating a new relationship with our planet</P>  </div>
+            
+            
           </div>
           <div class="menu-item">
             <div class="menu-item-name"> Delicious Dish </div>
             <div class="menu-item-price"> $30 </div>
             <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
           </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
+         
+          
         </div>
       </div>
       <div class="col-xs-12 col-sm-6">
         <div class="menu-section">
-          <h2 class="menu-section-title">Main Course</h2>
+          <h2 class="menu-section-title">2. SAID </h2>
+          <h4 class="text-center">( summit of Africa innovations And Development)</h4>
           <hr>
           <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $45 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
+            <div class="menu-item-name"> An event that activates the full potential of all people with all ideas and resources </div>
+            
           </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
+         
+         
+          
         </div>
       </div>
     </div>
@@ -495,5 +488,11 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+<script>
+ $('#myTab a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+ </script>
 </body>
 </html>
